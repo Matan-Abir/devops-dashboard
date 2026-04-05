@@ -1,4 +1,5 @@
 import sysinfo
+import logcheck
 
 print("===== Devops Dashboard =====")
 
@@ -19,8 +20,10 @@ while(menu_choice != 0):
 			# Valid input
 			if menu_choice == 1:
 				sysinfo.show_sysinfo()
+			if menu_choice == 2:
+				logcheck.check_log()
 			else:
-				print("Coming soon...!")
+				print("Coming soon...")
 		else:
 			# Invalud input
 			input("Invalid choice! Press enter to try again..")
