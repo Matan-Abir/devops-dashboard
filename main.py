@@ -1,5 +1,6 @@
 import sysinfo
 import logcheck
+import tasklist
 
 print("===== Devops Dashboard =====")
 
@@ -22,8 +23,8 @@ while(menu_choice != 0):
 				sysinfo.show_sysinfo()
 			if menu_choice == 2:
 				logcheck.check_log()
-			else:
-				print("Coming soon...")
+			if menu_choice == 3:
+				tasklist.manage_tasks()
 		else:
 			# Invalud input
 			input("Invalid choice! Press enter to try again..")
