@@ -1,0 +1,101 @@
+    1  git clone https://github.com/Matan-Abir/devops-dashboard.git
+    2  ls
+    3  cd devops-dashboard/
+    4  ls
+    5  git remote
+    6  git remote -v
+    7  sudo nano main.py
+    8  main.py
+    9  ls
+   10  python3 main.py
+   11  sudo nano main.py 
+   12  python3 main.py
+   13  sudo nano main.py 
+   14  python3 main.py
+   15  sudo nano main.py 
+   16  python3 main.py
+   17  sudo nano main.py 
+   18  git add main.py 
+   19  git status
+   20  git commit -m "Added main.py, mostly a 'features to be added' version"
+   21  git status
+   22  git push
+   23  git config --global credential.helper store
+   24  had to remove this line because it had a secret in it. oh dear.
+   25  git status
+   26  git push
+   27  history
+   28  git remote set-url origin https://www.github.com/Matan-Abir/devops-dashboard.git
+   29  git status
+   30  git push
+   31  git config credential.helper store
+   32  git push
+   33  git pull
+   34  ls
+   35  sudo nano main.py
+   36  python3 main.py
+   37  sudo nano sysinfo.py 
+   38  python3 main.py
+   39  sudo nano main.py
+   40  python3 main.py
+   41  git commit -m "Integrated sysinfo and made aesthetic fixes to main.py"
+   42  git add main.py && git add sysinfo.py
+   43  git commit -m "Integrated sysinfo and made aesthetic fixes to main.py"
+   44  sudo nano main.py
+   45  python3 main.py
+   46  sudo nano 06042026.log.fake
+   47  python3 main.py
+   48  ls
+   49  python3 main.py
+   50  sudo nano logcheck.py 
+   51  python3 main.py
+   52  cat 06042026.log.fake 
+   53  cat logcheck.py 
+   54  sudo nano logcheck.py 
+   55  python3 main.py
+   56  sudo nano logcheck.py 
+   57  python3 main.py
+   58  sudo nano logcheck.py 
+   59  git status
+   60  git rm 06042026.log.fake 
+   61  sudo rm 06042026.log.fake 
+   62  git add logcheck.py  && git add main.py 
+   63  git commit -m "Integrated logcheck to main.py"
+   64  sudo nano main.py 
+   65  sudo nano tasklist.py 
+   66  python3 main.py
+   67  sudo nano tasklist.py 
+   68  python3 main.py
+   69  sudo nano tasklist.py 
+   70  python3 main.py
+   71  sudo nano tasklist.py 
+   72  python3 main.py
+   73  sudo nano tasklist.py 
+   74  python3 main.py
+   75  sudo nano tasklist.py 
+   76  python3 main.py
+   77  sudo nano tasklist.py \
+   78  python3 main.py
+   79  git commit -m "Integrated 'task list' after fixing a few bugs"
+   80  git add main.py
+   81  git add tasklist.py
+   82  git status
+   83  git commit -m "Integrated 'task list' after fixing a few bugs"
+   84  git config --global user.name
+   85  git config --global user.email
+   86  ssh-keygen -t ed25519 -C "matan.abir@gmail.com"
+   87  cat ~/.ssh/id_ed25519.pub
+   88  ssh -T git@github.com
+   89  git remote -v
+   90  git remote set-url origin git@github.com:Matan-Abir/devops-dashboard.git
+   91  git remove -v
+   92  git remote -v
+   93  echo "Added SSH auth" >> README.md 
+   94  git status
+   95  git add README.md 
+   96  git commit -m "Switched over to SSH"
+   97  git push
+   98  git status
+   99  git pull
+  100  cat README.md 
+  101  history >> history.txt
